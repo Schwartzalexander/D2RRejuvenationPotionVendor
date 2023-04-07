@@ -1,0 +1,30 @@
+{
+  "name": "Rejuvenation Potion Vendor",
+  "description": "Makes Full Rejuvenation Potions available at vendors'",
+  "author": "erSch",
+  "website": "https://www.nexusmods.com/diablo2resurrected/mods/278",
+  "version": "1.1",
+  "config": [
+    {
+      "id": "sellPriceSmall",
+      "type": "text",
+      "name": "Sell price small portion",
+      "description": "The price at which the small potion is sold by sellers",
+      "defaultValue": 400
+    },
+    {
+      "id": "sellPriceFull",
+      "type": "text",
+      "name": "Sell price full portion",
+      "description": "The price at which the full portion is sold by sellers",
+      "defaultValue": 1000
+    },
+    {
+      "id": "fullPotionOnlyInHell",
+      "type": "checkbox",
+      "name": "Full potion only in hell",
+      "description": "If checked, only small rejuvenation potions are available in Normal and Nightmare and full potions in Hell.",
+      "defaultValue": false
+    }
+  ]
+}
